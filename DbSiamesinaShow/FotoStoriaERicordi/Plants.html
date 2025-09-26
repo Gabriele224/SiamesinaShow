@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Plants- Siamesina Show</title>
+    </head>
+    <style>
+        .titolo{
+            text-align: center;
+            font-family: cursive;
+            font-size: 1.5rem;
+            color: red;
+        }
+        p{
+            text-align: left;
+            color: black;
+            font-family: cursive;
+        }
+        img{
+            width: 360px;
+            height: 345px;
+            border: 2px solid black;
+            border-radius: 15px 15px 15px;
+            justify-content: center;
+            grid: 15px;
+        }
+
+        .card {
+            position: relative;
+            width: 360px;
+            margin: 0 auto; /* centramento */
+            display: block;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background-color:white;
+        }
+        
+        .card:hover {
+            transform: scale(1.0); /* leggero ingrandimento al passaggio */
+        }
+        
+        .card .descrizione {
+            position: absolute;
+            bottom: 0;
+            color: black;
+            background-color:white;
+            width: 360px;
+            text-align: center;
+            padding: 10px 0;
+            opacity: 0;
+            font-weight: bold;
+            border:2px solid black;
+            border-radius: 10px 5px 10px;
+        }
+        
+        .card:hover .descrizione {
+            opacity: 1;
+        }
+        .indirizzo{
+            background-color: black;
+            color: white;
+            font-family: fantasy;
+        }
+
+        
+    </style>
+    <body>
+        <h3 class="titolo">Plants- Siamesina Show</h3>
+        <div class="card">
+            <div class="descrizione">Plants- S. Show</div>
+            <img src="./static/plants.jpg">
+            
+        </div>
+        <br>
+        <p>
+            Non mi sfugge niente....sono proprio una<br>
+            furbacchiona 🤣🐾🐈
+        <br>
+
+        <footer class="indirizzo">
+                Instagram Personale: siamesinashow<br>
+                Fanpage Gestita da<br>
+                Instagram_1:_gabriele.ricca<br>e<br>
+                Instagram_2:_ricca5
+        </footer>
+    </body>
+</html>
