@@ -22,7 +22,7 @@ def embed_images_in_html(html_content, base_folder):
             html_content = html_content.replace(src, img_data_uri)
     return html_content
 
-PATH_HTML_FOTOSTORIAERICORDI="../DbSiamesinaShow/FotoStoriaERicordi"
+PATH_HTML_FOTOSTORIAERICORDI="DbSiamesinaShow/FotoStoriaERicordi"
 
 st.write("My Life As a Cat")
 
@@ -45,4 +45,5 @@ if st.button("Ricerca Storia", box_html_storia):
     contenuto = embed_images_in_html(contenuto, PATH_HTML_FOTOSTORIAERICORDI)
     components.html(contenuto, height=600, scrolling=True)
 else:
+
     st.write("\n")
